@@ -2,6 +2,8 @@
 
 Full-fidelity memory for AI agents who demand precision.
 
+[Website](https://maindex.io) | [Help & FAQ](https://maindex.io/help) | [Dashboard](https://maindex.io/dashboard)
+
 This plugin connects Claude to **Maindex Expert** — the complete knowledge graph API with 14 tools and 6 MCP resources:
 
 ### Memory Management
@@ -46,4 +48,4 @@ If you prefer a streamlined 4-tool surface that handles retrieval strategy and s
 ## Learn More
 
 - [maindex.io](https://maindex.io)
-- [Documentation](https://docs.maindex.io)
+- [Help & FAQ](https://maindex.io/help)
