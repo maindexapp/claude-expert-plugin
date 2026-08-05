@@ -4,7 +4,7 @@ Full-fidelity memory for AI agents who demand precision.
 
 [Website](https://maindex.io) | [Help & FAQ](https://maindex.io/help) | [Dashboard](https://maindex.io/dashboard)
 
-This plugin connects Claude to **Maindex Expert** — the complete knowledge graph API with 14 tools and 5 MCP resources:
+This plugin connects Claude to **Maindex Expert** — the complete knowledge graph API with 15 tools and 5 MCP resources:
 
 ### Memory Management
 - `memory_keep` — create a memory
@@ -21,6 +21,7 @@ This plugin connects Claude to **Maindex Expert** — the complete knowledge gra
 
 ### Graph & Organization
 - `memory_associate` — create typed links between memories
+- `memory_unassociate` — remove typed links between memories
 - `memory_get_related` — discover connections
 - `collection_manage` — create, update, and manage collections
 - `collection_unlock` — unlock passphrase-protected collections
@@ -30,6 +31,10 @@ This plugin connects Claude to **Maindex Expert** — the complete knowledge gra
 
 ### Resources
 - `memory://tags`, `memory://collections`, `memory://recent`, `memory://relation-types`, `memory://sessions`
+
+## Teams Workspaces
+
+Team workspaces let multiple members share a scoped memory graph within your account. Expert tools support team context via `team` and `collection` parameters on reads and writes.
 
 ## Installation
 
