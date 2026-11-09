@@ -34,7 +34,7 @@ This plugin connects Claude to **Maindex Expert** — the complete knowledge gra
 
 ## Teams Workspaces
 
-Team workspaces let multiple members share a scoped memory graph within your account. Expert tools support team context via `team` and `collection` parameters on reads and writes.
+Team workspaces let multiple members share a scoped memory graph within your account. Optional `team` on read tools; writes via `memory_keep` with **both** `team` and `collection`; `create_team_collection` on `collection_manage`; namespaced IDs like `team-slug:mem-xxxx`. See the [Teams guide](https://maindex.io/help/teams/).
 
 ## Installation
 
